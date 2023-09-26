@@ -13,7 +13,7 @@ const Counter = () => {
   return (
     <div>
       <h1>Redux control count number</h1>
-      <button onClick={()=>dispatch(incrementByValue(7  ))} >Increment by 5</button> <br />
+      <button onClick={()=>dispatch(incrementByValue(7  ))} >Increment by 7</button> <br />
       <button onClick={()=>dispatch(increment())} >Increment</button>
       <div>
         <h1>{ count}</h1>
